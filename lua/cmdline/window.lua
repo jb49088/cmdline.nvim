@@ -16,7 +16,7 @@ end
 window.config = function(height, offset)
     return {
         relative = "editor",
-        border = nil,
+        border = "none",
         style = 'minimal',
         width = vim.o.columns,
         height = height,
